@@ -9,8 +9,7 @@ app.use(express.static(__dirname+"/public"));
 
 
 app.get(("/"),(req, res)=>{
-    res.send("Hello");
-    // res.render("home", {title: "Home Page"})
+    res.render("home", {title: "Home Page"})
 });
 // .post((req, res)=>{
 //         // const email = req.body.email;
