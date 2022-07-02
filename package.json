@@ -4,22 +4,17 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/css/styles.css",
-    "build-live": "npx tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Getabalew Tesfaye",
   "license": "ISC",
   "engines": {
     "node": "16.15.1"
-  }
-  ,
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "imap": "^0.8.19",
-    "lodash": "^4.17.21",
-    "nodemailer": "^6.7.6"
+    "lodash": "^4.17.21"
   }
 }

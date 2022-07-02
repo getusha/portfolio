@@ -3,10 +3,9 @@ const ejs = require("ejs");
 const bodyparser = require("body-parser");
 
 const app = express();
-const nodemailer = require('nodemailer');
 app.use(bodyparser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
-app.use(express.static("public"));
+app.use(express.static(__dirname+"/public"));
 
 
 app.get(("/"),(req, res)=>{
