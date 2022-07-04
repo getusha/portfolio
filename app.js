@@ -9,7 +9,7 @@ app.use(express.static(__dirname+"/public"));
 
 
 app.get(("/"),(req, res)=>{
-    res.render("home", {title: "Getabalew - Talented Web Developer"})
+    res.render("home", {title: "Mulubirhan - Talented Web Developer"})
 });
 // .post((req, res)=>{
 //         // const email = req.body.email;
