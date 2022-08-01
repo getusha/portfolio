@@ -548,6 +548,7 @@ span.quote {}
 
 .preview-pic {
   height: 200px;
+  width: 100%;
 }
 
 .card {
